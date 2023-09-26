@@ -272,3 +272,14 @@ Provide the following code (replace your token in the file):
 ``````
 
 We have automated this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
+
+Faced a issue with terraform cloud aws credentials not found-
+
+Fix: Changed default execution mode to local by refering the below source.
+
+[Terraform cloud aws cred not found fix]
+(https://github.com/hashicorp/terraform-provider-aws/issues/10583)
+
+![Alt text](./images/terra_cloud_exec_mode.png)
+
+

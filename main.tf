@@ -1,5 +1,5 @@
 terraform {
-   cloud {
+  cloud {
     organization = "TerraFusion"
     workspaces {
       name = "terra-house-1"
@@ -36,7 +36,7 @@ resource "aws_s3_bucket" "aws_bucket_name" {
   bucket = "anand-s3-terraform-bucket-${random_string.bucket_name.result}"
 }
 
-output "random_bucket_name" {
+output "s3-bucket-created" {
   # value = random_string.bucket_name.result
   value = aws_s3_bucket.aws_bucket_name.id
 }
