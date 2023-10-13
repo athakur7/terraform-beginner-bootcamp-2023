@@ -36,7 +36,7 @@ DESCRIPTION
   domain_name = module.home_arcanum_hosting.domain_name
   # domain_name     = "3efefdxq3gz.cloudfront.net"
   town            = "gamers-grotto"
-  content_version = 1
+  content_version = var.arcanum.content_version
 }
 
 module "home_payday_hosting" {
