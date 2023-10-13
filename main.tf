@@ -35,7 +35,7 @@ show you how to play arcanum without spoiling the plot.
 DESCRIPTION
   domain_name = module.home_arcanum_hosting.domain_name
   # domain_name     = "3efefdxq3gz.cloudfront.net"
-  town            = "missingo"
+  town            = "gamers-grotto"
   content_version = 1
 }
 
@@ -47,13 +47,12 @@ module "home_payday_hosting" {
 }
 
 resource "terratowns_home" "home_payday" {
-  name            = "Making your Payday Bar"
+  name            = "Making your Burgers!!"
   description     = <<DESCRIPTION
-Since I really like Payday candy bars but they cost so much to import
-into Canada, I decided I would see how I could my own Paydays bars,
-and if they are most cost effective.
+A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat, 
+typically beef—placed inside a sliced bun or bread roll.
 DESCRIPTION
   domain_name     = module.home_payday_hosting.domain_name
-  town            = "missingo"
+  town            = "cooker-cove"
   content_version = var.payday.content_version
 }
