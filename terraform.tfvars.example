@@ -1,9 +1,9 @@
-terratowns_endpoint="https://terratowns.cloud/api"
-arcanum = {
-  public_path = "/workspace/terraform-beginner-bootcamp-2023/public/arcanum"
-  content_version = 4 
+terratowns_endpoint = "https://terratowns.cloud/api"
+gta = {
+  public_path     = "/workspace/terraform-beginner-bootcamp-2023/public/gta"
+  content_version = 4
 }
 payday = {
-  public_path = "/workspace/terraform-beginner-bootcamp-2023/public/burger-recipe"
+  public_path     = "/workspace/terraform-beginner-bootcamp-2023/public/burger-recipe"
   content_version = 4
 }

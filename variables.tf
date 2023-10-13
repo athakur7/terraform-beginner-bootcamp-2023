@@ -8,7 +8,7 @@ variable "terratowns_endpoint" {
   type = string
 }
 
-variable "arcanum" {
+variable "gta" {
   type = object({
     public_path     = string
     content_version = number
